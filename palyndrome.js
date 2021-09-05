@@ -22,3 +22,13 @@ return false
 return true;
 }
 console.log(isPalindrome('abbas'));
+
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+ var isPalindrome = function(x) {
+    if(x < -Math.pow(1,31) || x > Math.pow(2,31)-1) return false;
+    y= String(x).split('').reverse().join('');
+    return y === String(x);
+};
