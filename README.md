@@ -1,2 +1,2 @@
 # Javascript
-A to Z of JS
+Problem solving in JS
