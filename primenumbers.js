@@ -19,18 +19,11 @@ class PrimeNumbers {
         console.log(primeArr)
     }
     isPrime(n) {
-        let oddCtr = 0;
-        for (let el = 2; el < this.arr.length; el++) {
-            if (n % el === 0 && el !== n) {
-                oddCtr++
-                return
-            }
-        }
-        if (oddCtr) {
-            return false;
-        } else {
-            return true;
-        }
+       for(let i=2; i<n;i++){
+           if(n%i ===0){
+               
+           }
+       }
     }
 }
 
