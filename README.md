@@ -1,2 +1,2 @@
 # Javascript
-Problem solving in JS
+Problem solving in JS/TS
